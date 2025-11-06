@@ -100,7 +100,7 @@ Screenshots
 1. Login Page
 ![alt text](image.png)
 
-2. SignUp Page
+2. Sign Up Page
 ![alt text](image-1.png)
 
 3. Home Page
