@@ -1,0 +1,8 @@
+wnode_modules/
+.env
+.env.local
+*.log
+data/
+dist/
+build/
+.DS_Store
