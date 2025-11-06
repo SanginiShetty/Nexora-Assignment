@@ -30,7 +30,7 @@
 .image-placeholder {
   font-size: 3.5rem;
   animation: float 3s ease-in-out infinite;
-  color: #d91e63;
+  color: #8e38a3;
 }
 
 @keyframes float {
@@ -85,13 +85,13 @@
 .price {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #d91e63;
+  color: #8e38a3;
 }
 
 .quantity-selector {
   display: flex;
   align-items: center;
-  border: 1px solid #d91e63;
+  border: 1px solid #8e38a3;
   border-radius: 2px;
   background: white;
 }
@@ -102,7 +102,7 @@
   padding: 0.4rem 0.6rem;
   cursor: pointer;
   font-size: 1rem;
-  color: #d91e63;
+  color: #8e38a3;
   transition: all 0.2s ease;
   font-weight: 700;
 }
@@ -133,7 +133,7 @@
 .add-to-cart-btn {
   width: 100%;
   padding: 0.8rem;
-  background: #d91e63;
+  background: #8e38a3;
   color: white;
   border: none;
   border-radius: 2px;
@@ -146,7 +146,7 @@
 }
 
 .add-to-cart-btn:hover {
-  background: #ad1457;
+  background: #8e38a3;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(217, 30, 99, 0.2);
 }

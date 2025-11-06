@@ -38,7 +38,7 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #8e38a3;
   box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
 }
 
@@ -73,7 +73,7 @@
 }
 
 .toggle-password:hover {
-  color: #667eea;
+  color: #8e38a3;
 }
 
 .error-message {
@@ -97,7 +97,7 @@
 .submit-btn {
   width: 100%;
   padding: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8e38a3 0%, #8e38a3 100%);
   color: white;
   border: none;
   border-radius: 8px;

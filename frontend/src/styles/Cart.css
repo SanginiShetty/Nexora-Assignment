@@ -90,7 +90,7 @@
 .checkout-btn {
   width: 100%;
   padding: 0.95rem;
-  background: #d91e63;
+  background: #8e38a3;
   color: white;
   border: none;
   border-radius: 2px;
@@ -104,7 +104,7 @@
 }
 
 .checkout-btn:hover {
-  background: #ad1457;
+  background: #8e38a3;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(217, 30, 99, 0.2);
 }
@@ -113,8 +113,8 @@
   width: 100%;
   padding: 0.8rem;
   background: white;
-  color: #d91e63;
-  border: 1px solid #d91e63;
+  color: #8e38a3;
+  border: 1px solid #8e38a3;
   border-radius: 2px;
   font-size: 0.95rem;
   font-weight: 700;

@@ -60,12 +60,17 @@ function Products({ cart, setCart }) {
     <div className="products-page">
       {/* Hero Banner */}
       <section className="hero-banner">
+        <img 
+          src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGlnaXRhbCUyMHByb2R1Y3RzfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000" 
+          alt="Discover Premium Products" 
+          className="hero-image"
+        />
         <div className="hero-content">
           <h1>Discover Your Style</h1>
-          <p>Premium Collection of Curated Products</p>
+          <p>Premium Collection of Products</p>
           <button className="hero-cta">Shop Now</button>
         </div>
-        <div className="hero-background"></div>
+        <div className="hero-overlay"></div>
       </section>
 
       {/* Category Filter */}

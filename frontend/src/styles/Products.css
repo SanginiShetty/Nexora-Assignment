@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 
-/* Hero Banner - Nykaa Style */
+/* Hero Banner */
 .hero-banner {
   position: relative;
   height: 480px;
@@ -16,21 +16,31 @@
   border-bottom: 1px solid #e8e8e8;
 }
 
-.hero-background {
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 20% 50%, rgba(217, 30, 99, 0.05) 0%, transparent 50%),
-              radial-gradient(circle at 80% 80%, rgba(244, 67, 54, 0.05) 0%, transparent 50%);
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
   text-align: center;
-  color: #333;
+  color: #fff;
   max-width: 600px;
   padding: 0 2rem;
 }
@@ -40,20 +50,20 @@
   margin: 0 0 1rem 0;
   font-weight: 900;
   letter-spacing: -1.5px;
-  color: #d91e63;
+  color: #ffffff;
   animation: slideDown 0.8s ease;
 }
 
 .hero-banner p {
   font-size: 1.2rem;
   margin: 0 0 2rem 0;
-  color: #666;
+  color: #ffffff;
   font-weight: 400;
   animation: slideUp 0.8s ease 0.2s both;
 }
 
 .hero-cta {
-  background-color: #d91e63;
+  background-color: #8e38a3;
   color: white;
   border: none;
   padding: 1rem 2.5rem;
@@ -63,15 +73,15 @@
   cursor: pointer;
   transition: all 0.3s ease;
   animation: slideUp 0.8s ease 0.4s both;
-  box-shadow: 0 4px 12px rgba(217, 30, 99, 0.25);
+  box-shadow: 0 4px 12px rgba(217, 30, 99, 0.4);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .hero-cta:hover {
-  background-color: #ad1457;
+  background-color: #8e38a3;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(217, 30, 99, 0.35);
+  box-shadow: 0 8px 20px rgba(142, 56, 163, 0.5);
 }
 
 @keyframes slideDown {
@@ -146,15 +156,15 @@
 }
 
 .category-btn:hover {
-  border-color: #d91e63;
-  color: #d91e63;
+  border-color: #8e38a3;
+  color: #8e38a3;
   background-color: #fff5f7;
 }
 
 .category-btn.active {
-  background-color: #d91e63;
+  background-color: #8e38a3;
   color: white;
-  border-color: #d91e63;
+  border-color: #8e38a3;
 }
 
 /* Products Section */
@@ -230,6 +240,12 @@
     margin-bottom: 2rem;
   }
 
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .hero-banner h1 {
     font-size: 2.2rem;
   }
@@ -272,6 +288,10 @@
   .hero-banner {
     height: 280px;
     margin-bottom: 1.5rem;
+  }
+
+  .hero-image {
+    object-fit: cover;
   }
 
   .hero-banner h1 {

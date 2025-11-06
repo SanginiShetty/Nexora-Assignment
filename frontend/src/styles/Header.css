@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8e38a3 0%, #8e38a3 100%);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -65,7 +65,7 @@
 }
 
 .cart-badge {
-  background-color: #ff6b6b;
+  background-color: #8e38a3;
   color: white;
   border-radius: 50%;
   width: 20px;

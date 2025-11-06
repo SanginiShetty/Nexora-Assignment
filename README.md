@@ -72,3 +72,54 @@ frontend/
   ├── components/
   ├── pages/
   └── App.jsx
+
+
+⭐  Email Setup Guide
+
+1. Enable Gmail App Password
+   Go to Google Account Security
+   Enable 2-Step Verification
+   Generate App Password:
+   Go to Security → 2-Step Verification → App passwords
+   Select Mail as app
+   Select Other and name it "Vibe Commerce"
+   Copy the 16-character password
+
+2. Update Backend Configuration
+Edit backend/.env file:
+
+env
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASSWORD=your-16-character-app-password
+EMAIL_SERVICE=gmail
+EMAIL_FROM=Vibe Commerce <your-email@gmail.com>
+
+
+Screenshots
+
+1. Login Page
+![alt text](image.png)
+
+2. SignUp Page
+![alt text](image-1.png)
+
+3. Home Page
+![alt text](image-2.png)
+
+4. Products
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+5. Product Interactions- Add to cart
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+
+6. Checkout Process
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+
+7. Order Confirmation in mail
+![alt text](image-11.png)
+![alt text](image-12.png)

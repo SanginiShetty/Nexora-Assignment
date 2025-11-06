@@ -30,7 +30,7 @@
   font-size: 1.6rem;
   font-weight: 800;
   margin: 0;
-  color: #d91e63;
+  color: #8e38a3;
   letter-spacing: -0.5px;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .nav-btn:hover {
-  color: #d91e63;
+  color: #8e38a3;
 }
 
 .nav-btn::after {
@@ -65,7 +65,7 @@
   left: 0;
   width: 0;
   height: 3px;
-  background: #d91e63;
+  background: #8e38a3;
   transition: width 0.3s ease;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .nav-btn.active {
-  color: #d91e63;
+  color: #8e38a3;
 }
 
 .cart-btn {
