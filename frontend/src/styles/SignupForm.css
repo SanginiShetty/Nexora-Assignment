@@ -4,7 +4,7 @@
 
 .signup-form h2 {
   font-size: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
   color: #333;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .form-group.checkbox label a {
-  color: #8e38a3;
+  color: #0095b6;
   text-decoration: none;
   font-weight: 500;
 }

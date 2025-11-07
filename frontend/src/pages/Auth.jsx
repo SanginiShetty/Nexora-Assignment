@@ -13,32 +13,12 @@ function Auth({ onAuthSuccess }) {
   return (
     <div className="auth-container">
       <div className="auth-wrapper">
-        <div className="auth-left">
+        <div className="auth-form-section">
           <div className="auth-branding">
             <h1>✨ Vibe Commerce</h1>
             <p>Discover your favorite products</p>
-            <div className="auth-benefits">
-              <div className="benefit">
-                <span className="benefit-icon">🚚</span>
-                <span>Fast Delivery</span>
-              </div>
-              <div className="benefit">
-                <span className="benefit-icon">🛡️</span>
-                <span>Secure Payment</span>
-              </div>
-              <div className="benefit">
-                <span className="benefit-icon">💎</span>
-                <span>Premium Quality</span>
-              </div>
-              <div className="benefit">
-                <span className="benefit-icon">🎁</span>
-                <span>Special Offers</span>
-              </div>
-            </div>
           </div>
-        </div>
 
-        <div className="auth-right">
           {authMode === 'login' ? (
             <>
               <LoginForm onSuccess={onAuthSuccess} />

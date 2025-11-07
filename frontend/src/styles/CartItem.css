@@ -26,7 +26,7 @@
   justify-content: center;
   font-size: 1.8rem;
   border: 1px solid #f0f0f0;
-  color: #d91e63;
+  color: #0095b6;
 }
 
 .item-details h4 {
@@ -47,7 +47,7 @@
 
 .item-price {
   font-size: 0.9rem;
-  color: #8e38a3;
+  color: #0095b6;
   margin: 0.3rem 0 0 0;
   font-weight: 700;
 }
@@ -55,7 +55,7 @@
 .item-quantity {
   display: flex;
   align-items: center;
-  border: 1px solid #8e38a3;
+  border: 1px solid #0095b6;
   border-radius: 2px;
   background: white;
   height: 35px;
@@ -66,13 +66,13 @@
   border: none;
   padding: 0 0.5rem;
   cursor: pointer;
-  color: #8e38a3;
+  color: #0095b6;
   transition: all 0.2s ease;
   font-weight: 700;
 }
 
 .item-quantity button:hover {
-  background: #fff5f7;
+  background: #e0f7ff;
 }
 
 .item-quantity input {
@@ -100,9 +100,9 @@
 .remove-btn {
   width: 35px;
   height: 35px;
-  border: 1.5px solid #8e38a3;
+  border: 1.5px solid #0095b6;
   background: white;
-  color: #8e38a3;
+  color: #0095b6;
   border-radius: 50%;
   cursor: pointer;
   font-size: 0.9rem;
@@ -114,7 +114,7 @@
 }
 
 .remove-btn:hover {
-  background: #8e38a3;
+  background: #0095b6;
   color: white;
   transform: scale(1.1);
 }

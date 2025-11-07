@@ -60,17 +60,36 @@ function Products({ cart, setCart }) {
     <div className="products-page">
       {/* Hero Banner */}
       <section className="hero-banner">
-        <img 
-          src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGlnaXRhbCUyMHByb2R1Y3RzfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000" 
-          alt="Discover Premium Products" 
-          className="hero-image"
-        />
         <div className="hero-content">
-          <h1>Discover Your Style</h1>
-          <p>Premium Collection of Products</p>
+          <h1>Find Clothes That Matches Your Style</h1>
+          <p>Browse through our diverse range of meticulously curated clothes designed to bring out your individuality and cater to your sense of style.</p>
           <button className="hero-cta">Shop Now</button>
+          <div style={{ marginTop: '2rem', display: 'flex', gap: '2rem' }}>
+            <div>
+              <div style={{ fontSize: '1.5rem', fontWeight: '900' }}>200+</div>
+              <div style={{ fontSize: '0.9rem', color: '#666' }}>Brands</div>
+            </div>
+            <div>
+              <div style={{ fontSize: '1.5rem', fontWeight: '900' }}>2,000+</div>
+              <div style={{ fontSize: '0.9rem', color: '#666' }}>Products</div>
+            </div>
+            <div>
+              <div style={{ fontSize: '1.5rem', fontWeight: '900' }}>30,000+</div>
+              <div style={{ fontSize: '0.9rem', color: '#666' }}>Customers</div>
+            </div>
+          </div>
         </div>
-        <div className="hero-overlay"></div>
+      </section>
+
+      {/* Brand Strip */}
+      <section className="brand-strip">
+        <div className="brands">
+          <span style={{ fontSize: '1.2rem', fontWeight: '700', color: '#fff' }}>VERSACE</span>
+          <span style={{ fontSize: '1.2rem', fontWeight: '700', color: '#fff' }}>ZARA</span>
+          <span style={{ fontSize: '1.2rem', fontWeight: '700', color: '#fff' }}>GUCCI</span>
+          <span style={{ fontSize: '1.2rem', fontWeight: '700', color: '#fff' }}>PRADA</span>
+          <span style={{ fontSize: '1.2rem', fontWeight: '700', color: '#fff' }}>Calvin Klein</span>
+        </div>
       </section>
 
       {/* Category Filter */}
@@ -93,6 +112,7 @@ function Products({ cart, setCart }) {
 
       {/* Products Section */}
       <section className="products-section">
+        <div className="section-title">New Arrivals</div>
         <div className="products-header">
           <h2>Featured Products</h2>
           <span className="product-count">{filteredProducts.length} Items</span>
@@ -113,6 +133,54 @@ function Products({ cart, setCart }) {
             ))}
           </div>
         )}
+        
+        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+          <a href="#" style={{ fontSize: '1rem', fontWeight: '600', color: '#000' }}>View All</a>
+        </div>
+      </section>
+
+      {/* Browse by Style Section */}
+      <section className="browse-style">
+        <div className="section-title">Browse By Dress Style</div>
+        <div className="browse-grid">
+          <div className="browse-card">Casual</div>
+          <div className="browse-card">Formal</div>
+          <div className="browse-card">Party</div>
+          <div className="browse-card">Gym</div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section>
+        <div className="section-title">Our Happy Customers</div>
+        <div className="testimonials">
+          <div className="testimonial-card">
+            <div style={{ marginBottom: '0.5rem' }}>★★★★★</div>
+            <p>"This store has transformed the way I shop for clothes. I absolutely love the quality and style!"</p>
+            <p style={{ fontWeight: '700', marginTop: '0.5rem' }}>Sarah M.</p>
+          </div>
+          <div className="testimonial-card">
+            <div style={{ marginBottom: '0.5rem' }}>★★★★★</div>
+            <p>"The variety of products and excellent customer service make this my go-to store every time."</p>
+            <p style={{ fontWeight: '700', marginTop: '0.5rem' }}>Alex K.</p>
+          </div>
+          <div className="testimonial-card">
+            <div style={{ marginBottom: '0.5rem' }}>★★★★★</div>
+            <p>"Best shopping experience! Fast delivery and perfect quality products. Highly recommended!"</p>
+            <p style={{ fontWeight: '700', marginTop: '0.5rem' }}>James L.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Section */}
+      <section className="newsletter-bar">
+        <div className="newsletter-inner">
+          <h3>Stay up to date about our latest offers</h3>
+          <div className="newsletter-input">
+            <input type="email" placeholder="Enter your email address" />
+            <button>Subscribe to Newsletter</button>
+          </div>
+        </div>
       </section>
     </div>
   )
